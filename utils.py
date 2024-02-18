@@ -66,7 +66,7 @@ async def check_expired_premium(client):
                 try:
                     await client.send_message(
                         chat_id=user_id,
-                        text=f"<b>आपका प्रीमियम प्लान खतम हो गया है ‼️\n\nअगर आपको वापस प्रीमियम Buy करना है तो /premium पर क्लिक करके प्लान वापस Buy कर ले...‼️\n\nTʜᴀɴᴋꜱ Fᴏʀ Uꜱɪɴɢ Oᴜʀ Sᴇʀᴠɪᴄᴇ...❤️</b>"
+                        text=f"<b>Yᴏᴜʀ Pᴀʏᴍᴇɴᴛ Hᴀs Gᴏᴛ Exᴘɪʀᴇᴅ...‼️\n\nIғ Yᴏᴜ Wᴀɴᴛ Tᴏ Bᴜʏ Pʀᴇᴍɪᴜᴍ Aɢᴀɪɴ Tʜᴇɴ Kɪɴᴅʟʏ Cʟɪᴄᴋ Oɴ /premium ‼️\n\nTʜᴀɴᴋꜱ Fᴏʀ Uꜱɪɴɢ Oᴜʀ Sᴇʀᴠɪᴄᴇ...❤️</b>"
                     )
                 except:
                     pass   
@@ -740,7 +740,7 @@ async def send_all(bot, userid, files, ident):
                             [
                             InlineKeyboardButton("🖥️ ᴏɴʟɪɴᴇ ᴡᴀᴛᴄʜ / ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ 📥", callback_data=f"stream#{file.file_id}")
                         ],[
-                        InlineKeyboardButton('❤️ Sᴜʙꜱᴄʀɪʙᴇ Fᴏʀ Mᴏᴠɪᴇ Sᴜɢɢᴇꜱᴛɪᴏɴ ❤️', url='https://www.youtube.com/@ThappyHour')
+                        InlineKeyboardButton('❤️ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ ❤️', url='https://t.me/theottservice')
                         ]
                         ]
                     )
@@ -760,11 +760,11 @@ async def send_all(bot, userid, files, ident):
             InlineKeyboardButton("Vᴇʀɪғʏ", url=await get_token(bot, userid, f"https://telegram.me/{temp.U_NAME}?start=", 'send_all')),
             InlineKeyboardButton("Hᴏᴡ Tᴏ Vᴇʀɪғʏ", url=HOW_TO_VERIFY)
         ],[
-            InlineKeyboardButton("⛥ ʀᴇᴍᴏᴠᴇ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ⛥", url="https://t.me/TheHappyHourBOT?start=TheHappyHour")
+            InlineKeyboardButton("⛥ ʀᴇᴍᴏᴠᴇ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ⛥", url="https://t.me/Zoro_X_Bot?start=Zoro_X_Bot")
           ]]
         await bot.send_message(
             chat_id=userid,
-            text="<b>हर दो दिन में 10 सेकंड का वेरिफिकेशन \nजरूरी हे !\n\nJust 10 second Bro 🥲\n\nAfter Get Unlimited Movies...✅</b>",
+            text="<b>Just 10 second Bro 🥲\n\nAfter Get Unlimited Movies...✅</b>",
             protect_content=True if PROTECT_CONTENT else False,
             reply_markup=InlineKeyboardMarkup(btn)
         )
@@ -795,7 +795,7 @@ async def send_all(bot, userid, files, ident):
                         [
                         InlineKeyboardButton("🖥️ ᴏɴʟɪɴᴇ ᴡᴀᴛᴄʜ / ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ 📥", callback_data=f"not_premium#{file.file_id}")
                     ],[
-                        InlineKeyboardButton('❤️ Sᴜʙꜱᴄʀɪʙᴇ Fᴏʀ Mᴏᴠɪᴇ Sᴜɢɢᴇꜱᴛɪᴏɴ ❤️', url='https://www.youtube.com/@ThappyHour')
+                        InlineKeyboardButton('❤️ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ ❤️', url='https://t.me/theottservice')
                     ]
                     ]
                 )
