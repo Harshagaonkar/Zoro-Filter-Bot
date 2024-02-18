@@ -13,66 +13,66 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '24579842'))
-API_HASH = environ.get('API_HASH', 'ec6105bf1a02c98f837300546dc341d1')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6596630313:AAHYsHgQzWs5atcOF1AIdODVCtldfQ0MbdU")
+API_ID = int(environ.get('API_ID', '28766774'))
+API_HASH = environ.get('API_HASH', 'b8b7a890c64bca1621f3e5666dbd0894')
+BOT_TOKEN = environ.get('BOT_TOKEN', "6919032796:AAHvS3gQMkpMeEd-UCKRRSCdImkPU8HG0gM")
 TIMEZONE = environ.get("TIMEZONE", "Asia/Kolkata")
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 150))
 USE_CAPTION_FILTER = is_enabled((environ.get('USE_CAPTION_FILTER', 'True')), True)
 
-PICS = (environ.get('PICS', 'https://graph.org/file/6092ad90bdc8b12dbf4b2.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/6092ad90bdc8b12dbf4b2.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/030bd90333f090dafe064.jpg")
-SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/6092ad90bdc8b12dbf4b2.jpg")
+PICS = (environ.get('PICS', 'https://telegra.ph/file/6c3c24352b3181cc5e0ee.jpg')).split()
+NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/78cdba67b2c3a69a398c3.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/78cdba67b2c3a69a398c3.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/78cdba67b2c3a69a398c3.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1991522624').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001867538832').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1124414278').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001948982748').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL')
+auth_channel = environ.get('AUTH_CHANNEL', '-1001948982748')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID')
-reqst_channel = environ.get('REQST_CHANNEL', '-1002023614254')
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001948982748')
+reqst_channel = environ.get('REQST_CHANNEL', '-1001856149007')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), False)
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://thhbot:happyhour@cluster0.4kenaya.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Zoro:Zoro09@cluster0.urs98t9.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "MINATO")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
-premium = environ.get('PREMIUM_LOGS', '-1002114337101')
+premium = environ.get('PREMIUM_LOGS', '-1001856149007')
 PREMIUM_LOGS = int(premium) if premium and id_pattern.search(premium) else None
 
-IMPORT_JK_SITE = environ.get('IMPORT_JK_SITE', 'riplinker.in')
-IMPORT_JK_API = environ.get('IMPORT_JK_API', 'edaa2a506f920af47a82e5f41ba3b30510df335d')
+IMPORT_JK_SITE = environ.get('IMPORT_JK_SITE', 'aslink.in')
+IMPORT_JK_API = environ.get('IMPORT_JK_API', '01285bce18a8c305944a47b43a54529eb3de5c5c')
 SHORT_MODE = is_enabled((environ.get("SHORT_MODE","False")), False)
 
 # Others
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), False)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://youtube.com/shorts/-gZtE-mc7XY?si=eFVF-gNe0Bo-xUmZ")
-VERIFY2_URL = environ.get('VERIFY2_URL', "ziplinker.net")
-VERIFY2_API = environ.get('VERIFY2_API', "c2511cd6b07f69fedce6caddc48cf6cf10a56dfa")
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'ziplinker.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'c2511cd6b07f69fedce6caddc48cf6cf10a56dfa')
+VERIFY2_URL = environ.get('VERIFY2_URL', "aslink.in")
+VERIFY2_API = environ.get('VERIFY2_API', "01285bce18a8c305944a47b43a54529eb3de5c5c")
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'aslink.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', '01285bce18a8c305944a47b43a54529eb3de5c5c')
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')), False)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1001966591245').split()]
-MAX_B_TN = environ.get("MAX_B_TN", "7")
+MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/ThappyHour')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/The_Happy_Hours')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Cinematic_xone')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/theottservice')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1002139657732))
-LAZY_GROUP_LOGS = int(environ.get('LAZY_GROUP_LOGS', -1002049370768))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Happy_Hour_Friends')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001856149007))
+LAZY_GROUP_LOGS = int(environ.get('LAZY_GROUP_LOGS', -1001856149007))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'theottservice')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
-IMDB = is_enabled((environ.get('IMDB', "False")), True)
+IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
@@ -89,7 +89,7 @@ PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
 # Streaming
-BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1001992201683")
+BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1001856149007")
 if len(BIN_CHANNEL) == 0:
     logging.error('BIN_CHANNEL is missing, exiting now')
     exit()
