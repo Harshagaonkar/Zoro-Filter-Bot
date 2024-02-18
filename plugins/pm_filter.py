@@ -56,12 +56,12 @@ async def stream_download(bot, query):
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📥 ᴅᴏᴡɴʟᴏᴀᴅ 📥", url=download),
                                             InlineKeyboardButton('🖥️ ꜱᴛʀᴇᴇᴍ 🖥️', url=online)]])
         )
-        await query.answer("अगर आपको सब तरह के AD दूर करने हे तो ᴘʀᴇᴍɪᴜᴍ ʙᴜʏ करना होगा...✅\n\nAD फ्री सर्विस सिर्फ ᴘʀᴇᴍɪᴜᴍ ᴜꜱᴇʀ हैं ।\n\nᴀᴅ-ꜰʀᴇᴇ ꜱᴇʀᴠɪᴄᴇ ᴏɴʟʏ ꜰᴏʀ ᴘʀᴇᴍɪᴜᴍ ᴜꜱᴇʀ....😒", show_alert=True)
+        await query.answer("Iғ Yᴏᴜ Wᴀɴᴛ Tᴏ Aᴠᴏɪᴅ AD Tʜᴇɴ Bᴜʏ Pʀᴇᴍɪᴜᴍ...✅\n\nᴀᴅ-ꜰʀᴇᴇ ꜱᴇʀᴠɪᴄᴇ ᴏɴʟʏ ꜰᴏʀ ᴘʀᴇᴍɪᴜᴍ ᴜꜱᴇʀ....😒", show_alert=True)
         await query.message.reply_text(
-            text=f"सब तरह के AD दूर करने हे तो ᴘʀᴇᴍɪᴜᴍ ʙᴜʏ करना होगा...✅",
+            text=f"Iғ Yᴏᴜ Wᴀɴᴛ Tᴏ Aᴠᴏɪᴅ AD Tʜᴇɴ Bᴜʏ Pʀᴇᴍɪᴜᴍ...✅",
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('💎 ᴘʀᴇᴍɪᴜᴍ 💎', url='https://t.me/TheHappyHourBot?start=TheHappyHour'),
-                                            InlineKeyboardButton('💥 ꜰᴜᴛᴜʀᴇꜱ 💥', url='https://graph.org/The-Happy-Hour-12-22-2')]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('💎 ᴘʀᴇᴍɪᴜᴍ 💎', url='https://t.me/Zoro_X_Bot?start=Zoro_X_Bot'),
+                                            InlineKeyboardButton('💥 ꜰᴜᴛᴜʀᴇꜱ 💥', url='https://graph.org/T%CA%9C%E1%B4%87-OTT-S%E1%B4%87%CA%80%E1%B4%A0%C9%AA%E1%B4%84%E1%B4%87-02-18')]])
         )
         await query.edit_message_reply_markup(
             reply_markup=InlineKeyboardMarkup(
@@ -75,12 +75,12 @@ async def stream_download(bot, query):
             ]
         ))
     else:
-        await query.answer("ये सिर्फ प्रिमियम User के लिए है...😒", show_alert=True)
+        await query.answer("Iᴛ's Oɴʟʏ Fᴏʀ Pʀᴇᴍɪᴜᴍ Usᴇʀs...😒", show_alert=True)
         await query.message.reply_text(
             text=f"ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ",
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('💎 ᴘʀᴇᴍɪᴜᴍ 💎', url='https://t.me/TheHappyHourBot?start=TheHappyHour'),
-                                            InlineKeyboardButton('💥 ꜰᴜᴛᴜʀᴇꜱ 💥', url='https://graph.org/The-Happy-Hour-12-22-2')]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('💎 ᴘʀᴇᴍɪᴜᴍ 💎', url='https://t.me/Zoro_X_Bot?start=Zoro_X_Bot'),
+                                            InlineKeyboardButton('💥 ꜰᴜᴛᴜʀᴇꜱ 💥', url='https://graph.org/T%CA%9C%E1%B4%87-OTT-S%E1%B4%87%CA%80%E1%B4%A0%C9%AA%E1%B4%84%E1%B4%87-02-18')]])
         )
         
 @Client.on_callback_query(filters.regex(r"^stream"))
@@ -151,7 +151,7 @@ async def give_filter(client, message):
             return
         else:
             return await message.reply_text(
-                text=f"<b>Hᴇʏ {message.from_user.mention}, {str(total_results)} ʀᴇsᴜʟᴛs ᴀʀᴇ ғᴏᴜɴᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {search}. Kɪɴᴅʟʏ ᴜsᴇ ɪɴʟɪɴᴇ sᴇᴀʀᴄʜ ᴏʀ ᴍᴀᴋᴇ ᴀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴀᴅᴅ ᴍᴇ ᴀs ᴀᴅᴍɪɴ ᴛᴏ ɢᴇᴛ ᴍᴏᴠɪᴇ ғɪʟᴇs. Tʜɪs ɪs ᴀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ғɪʟᴇs ғʀᴏᴍ ʜᴇʀᴇ...\n\nFᴏʀ Mᴏᴠɪᴇs, Jᴏɪɴ @free_movies_all_languages</b>",
+                text=f"<b>Hᴇʏ {message.from_user.mention}, {str(total_results)} ʀᴇsᴜʟᴛs ᴀʀᴇ ғᴏᴜɴᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {search}. Kɪɴᴅʟʏ ᴜsᴇ ɪɴʟɪɴᴇ sᴇᴀʀᴄʜ ᴏʀ ᴍᴀᴋᴇ ᴀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴀᴅᴅ ᴍᴇ ᴀs ᴀᴅᴍɪɴ ᴛᴏ ɢᴇᴛ ᴍᴏᴠɪᴇ ғɪʟᴇs. Tʜɪs ɪs ᴀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ғɪʟᴇs ғʀᴏᴍ ʜᴇʀᴇ...\n\nFᴏʀ Mᴏᴠɪᴇs, Jᴏɪɴ @Cinematic_xone</b>",
                 parse_mode=enums.ParseMode.HTML
             )
 
@@ -162,7 +162,7 @@ async def pm_text(bot, message):
     user_id = message.from_user.id
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
-    await message.reply_text("<b>Type & Get - t.me/Happy_Hour_Friends</b>")
+    await message.reply_text("<b>Type & Get - t.me/Cinematic_xone</b>")
     await bot.send_message(
         chat_id=LOG_CHANNEL,
         text=f"<b>#𝐏𝐌_𝐌𝐒𝐆\n\nNᴀᴍᴇ : {user}\n\nID : {user_id}\n\nMᴇssᴀɢᴇ : {content}</b>"
@@ -989,11 +989,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("Vᴇʀɪғʏ", url=await get_token(bot, userid, f"https://telegram.me/{temp.U_NAME}?start=", 'send_all')),
             InlineKeyboardButton("Hᴏᴡ Tᴏ Vᴇʀɪғʏ", url=HOW_TO_VERIFY)
         ],[
-            InlineKeyboardButton("⛥ ʀᴇᴍᴏᴠᴇ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ⛥", url="https://t.me/TheHappyHourBOT?start=TheHappyHour")
+            InlineKeyboardButton("⛥ ʀᴇᴍᴏᴠᴇ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ⛥", url="https://t.me/Zoro_X_Bot?start=Zoro_X_Bot")
           ]]
                         await client.send_message(
                             chat_id=query.from_user.id,
-                            text="<b>हर दो दिन में 10 सेकंड का वेरिफिकेशन \nजरूरी हे !\n\nJust 10 second Bro 🥲\n\nAfter Get Unlimited Movies...✅</b>",
+                            text="<b>Just 10 second Bro 🥲\n\nAfter Get Unlimited Movies...✅</b>",
                             protect_content=True if ident == 'checksubp' else False,
                             disable_web_page_preview=True,
                             parse_mode=enums.ParseMode.HTML,
@@ -1011,12 +1011,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                 [
                                 InlineKeyboardButton("🖥️ ᴏɴʟɪɴᴇ ᴡᴀᴛᴄʜ / ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ 📥", callback_data=f"stream#{file_id}")
                             ],[
-                    InlineKeyboardButton('❤️ Sᴜʙꜱᴄʀɪʙᴇ Fᴏʀ Mᴏᴠɪᴇ Sᴜɢɢᴇꜱᴛɪᴏɴ ❤️', url='https://www.youtube.com/@ThappyHour')
+                    InlineKeyboardButton('❤️ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ ❤️', url='https://t.me/theottservice')
                     ]
                                 ]
                             )
                         )
-                        return await query.answer('आपको मूवी पर्सनलचैट में भेजा है...✅\n\nFile Send Successfully ✅', show_alert=True)
+                        return await query.answer('File Send Successfully ✅', show_alert=True)
                     if await db.has_premium_access(query.from_user.id):
                         await client.send_cached_media(
                             chat_id=query.from_user.id,
@@ -1028,12 +1028,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                 [
                                 InlineKeyboardButton("🖥️ ᴏɴʟɪɴᴇ ᴡᴀᴛᴄʜ / ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ 📥", callback_data=f"stream#{file_id}")
                             ],[
-                    InlineKeyboardButton('❤️ Sᴜʙꜱᴄʀɪʙᴇ Fᴏʀ Mᴏᴠɪᴇ Sᴜɢɢᴇꜱᴛɪᴏɴ ❤️', url='https://www.youtube.com/@ThappyHour')
+                    InlineKeyboardButton('❤️ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ ❤️', url='https://t.me/theottservice')
                     ]
                                 ]
                             )
                         )
-                        return await query.answer('आपको मूवी पर्सनलचैट में भेजा है...✅\n\nFile Send Successfully ✅', show_alert=True)
+                        return await query.answer('File Send Successfully ✅', show_alert=True)
                 else:
                     return await query.answer(f"Hᴇʏ {query.from_user.first_name}, Tʜɪs Is Nᴏᴛ Yᴏᴜʀ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ. Rᴇǫᴜᴇsᴛ Yᴏᴜʀ's !", show_alert=True)
         except UserIsBlocked:
@@ -1051,11 +1051,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             send_files = temp.SEND_ALL_TEMP.get(query.from_user.id)
             is_over = await send_all(client, query.from_user.id, send_files, ident)
             if is_over == 'done':
-                return await query.answer(f"आपको मूवी पर्सनलचैट में भेजा है...✅\n\nFile Send Successfully ✅", show_alert=True)
+                return await query.answer(f"File Send Successfully ✅", show_alert=True)
             elif is_over == 'fsub':
                 return await query.answer("Hᴇʏ, Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴊᴏɪɴᴇᴅ ɪɴ ᴍʏ ʙᴀᴄᴋ ᴜᴘ ᴄʜᴀɴɴᴇʟ. Cʜᴇᴄᴋ ᴍʏ PM ᴛᴏ ᴊᴏɪɴ ᴀɴᴅ ɢᴇᴛ ғɪʟᴇs !", show_alert=True)
             elif is_over == 'jeetu':
-                return await query.answer("आपको मूवी पर्सनलचैट में भेजा है...✅\n\nFile Send Successfully ✅", show_alert=True)
+                return await query.answer("File Send Successfully ✅", show_alert=True)
             elif is_over == 'verify':
                 return await query.answer("Hᴇʏ, Yᴏᴜ ʜᴀᴠᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ ᴛᴏᴅᴀʏ. Yᴏᴜ ʜᴀᴠᴇ ᴛᴏ ᴠᴇʀɪғʏ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ. Cʜᴇᴄᴋ ᴍʏ PM ᴛᴏ ᴠᴇʀɪғʏ ᴀɴᴅ ɢᴇᴛ ғɪʟᴇs !", show_alert=True)
             else:
@@ -1083,11 +1083,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("Vᴇʀɪғʏ", url=await get_token(client, query.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id)),
                 InlineKeyboardButton("Hᴏᴡ Tᴏ Vᴇʀɪғʏ", url=HOW_TO_VERIFY)
             ],[
-            InlineKeyboardButton("⛥ ʀᴇᴍᴏᴠᴇ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ⛥", url="https://t.me/TheHappyHourBOT?start=TheHappyHour")
+            InlineKeyboardButton("⛥ ʀᴇᴍᴏᴠᴇ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ⛥", url="https://t.me/Zoro_X_Bot?start=Zoro_X_Bot")
           ]]
             await client.send_message(
                 chat_id=query.from_user.id,
-                text="<b>हर दो दिन में 10 सेकंड का वेरिफिकेशन \nजरूरी हे !\n\nJust 10 second Bro 🥲\n\nAfter Get Unlimited Movies...✅</b>",
+                text="<b>Just 10 second Bro 🥲\n\nAfter Get Unlimited Movies...✅</b>",
                 protect_content=True if ident == 'checksubp' else False,
                 disable_web_page_preview=True,
                 parse_mode=enums.ParseMode.HTML,
@@ -1104,7 +1104,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  [
                   InlineKeyboardButton("🖥️ ᴏɴʟɪɴᴇ ᴡᴀᴛᴄʜ / ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ 📥", callback_data=f"stream#{file_id}")
                ],[
-                    InlineKeyboardButton('❤️ Sᴜʙꜱᴄʀɪʙᴇ Fᴏʀ Mᴏᴠɪᴇ Sᴜɢɢᴇꜱᴛɪᴏɴ ❤️', url='https://www.youtube.com/@ThappyHour')
+                    InlineKeyboardButton('❤️ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ ❤️', url='https://t.me/theottservice')
                     ]
                 ]
             )
@@ -1119,11 +1119,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         files = temp.SEND_ALL_TEMP.get(query.from_user.id)
         is_over = await send_all(client, query.from_user.id, files, ident)
         if is_over == 'done':
-            return await query.answer(f"आपको मूवी पर्सनलचैट में भेजा है...✅\n\nFile Send Successfully ✅", show_alert=True)
+            return await query.answer(f"File Send Successfully ✅", show_alert=True)
         elif is_over == 'fsub':
             return await query.answer("Hᴇʏ, Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴊᴏɪɴᴇᴅ ɪɴ ᴍʏ ʙᴀᴄᴋ ᴜᴘ ᴄʜᴀɴɴᴇʟ. Cʜᴇᴄᴋ ᴍʏ PM ᴛᴏ ᴊᴏɪɴ ᴀɴᴅ ɢᴇᴛ ғɪʟᴇs !", show_alert=True)
         elif is_over == 'jeetu':
-            return await query.answer("आपको मूवी पर्सनलचैट में भेजा है...✅\n\nFile Send Successfully ✅", show_alert=True)
+            return await query.answer("File Send Successfully ✅", show_alert=True)
         elif is_over == 'verify':
             return await query.answer("Hᴇʏ, Yᴏᴜ ʜᴀᴠᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ ᴛᴏᴅᴀʏ. Yᴏᴜ ʜᴀᴠᴇ ᴛᴏ ᴠᴇʀɪғʏ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ. Cʜᴇᴄᴋ ᴍʏ PM ᴛᴏ ᴠᴇʀɪғʏ ᴀɴᴅ ɢᴇᴛ ғɪʟᴇs !", show_alert=True)
         else:
@@ -1444,7 +1444,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('• Hᴇʟᴘ •', callback_data='kushal'),
                     InlineKeyboardButton('• Aʙᴏᴜᴛ •', callback_data='about')
                   ],[
-                    InlineKeyboardButton('❤️ Sᴜʙꜱᴄʀɪʙᴇ Fᴏʀ Mᴏᴠɪᴇ Sᴜɢɢᴇꜱᴛɪᴏɴ ❤️', url='https://www.youtube.com/@ThappyHour')
+                    InlineKeyboardButton('❤️ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ ❤️', url='https://t.me/theottservice')
                     ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1524,7 +1524,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('🎁 ᴄʜᴇᴄᴋ ᴘʟᴀɴs 🎁', callback_data='check'), 
         ],[
-            InlineKeyboardButton('☘️ ꜰᴜᴛᴜʀᴇ ☘️', url="https://graph.org/The-Happy-Hour-12-22-2"),
+            InlineKeyboardButton('☘️ ꜰᴜᴛᴜʀᴇ ☘️', url="https://graph.org/T%CA%9C%E1%B4%87-OTT-S%E1%B4%87%CA%80%E1%B4%A0%C9%AA%E1%B4%84%E1%B4%87-02-18"),
             InlineKeyboardButton('cʟᴏꜱᴇ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1577,9 +1577,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "plan1":
         buttons = [[
-            InlineKeyboardButton('📸 sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ 📸', url="https://t.me/Master_Jiraya_Bot")
+            InlineKeyboardButton('📸 sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ 📸', url="https://t.me/Scooby_MenBot")
         ],[
-            InlineKeyboardButton('☘️ ꜰᴜᴛᴜʀᴇ ☘️', url="https://graph.org/The-Happy-Hour-12-22-2"),
+            InlineKeyboardButton('☘️ ꜰᴜᴛᴜʀᴇ ☘️', url="https://graph.org/T%CA%9C%E1%B4%87-OTT-S%E1%B4%87%CA%80%E1%B4%A0%C9%AA%E1%B4%84%E1%B4%87-02-18"),
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='check')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1595,7 +1595,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://graph.org/file/18154fad06450efdbc2a9.jpg")
+            InputMediaPhoto("https://telegra.ph/file/5a78d91e12e9bed9bc7f7.jpg")
         ) 
         await query.message.edit_text(
             text=script.PLAN1_TXT,
@@ -1604,9 +1604,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ) 
     elif query.data == "plan2":
         buttons = [[
-            InlineKeyboardButton('📸 sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ 📸', url="https://t.me/Master_Jiraya_Bot")
+            InlineKeyboardButton('📸 sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ 📸', url="https://t.me/Scooby_MenBot")
         ],[
-            InlineKeyboardButton('☘️ ꜰᴜᴛᴜʀᴇ ☘️', url="https://graph.org/The-Happy-Hour-12-22-2"),
+            InlineKeyboardButton('☘️ ꜰᴜᴛᴜʀᴇ ☘️', url="https://graph.org/T%CA%9C%E1%B4%87-OTT-S%E1%B4%87%CA%80%E1%B4%A0%C9%AA%E1%B4%84%E1%B4%87-02-18"),
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='check')             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1631,9 +1631,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ) 
     elif query.data == "plan3":
         buttons = [[
-            InlineKeyboardButton('📸 sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ 📸', url="https://t.me/Master_Jiraya_Bot")
+            InlineKeyboardButton('📸 sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ 📸', url="https://t.me/Scooby_MenBot")
         ],[
-            InlineKeyboardButton('☘️ ꜰᴜᴛᴜʀᴇ ☘️', url="https://graph.org/The-Happy-Hour-12-22-2"),
+            InlineKeyboardButton('☘️ ꜰᴜᴛᴜʀᴇ ☘️', url="https://graph.org/T%CA%9C%E1%B4%87-OTT-S%E1%B4%87%CA%80%E1%B4%A0%C9%AA%E1%B4%84%E1%B4%87-02-18"),
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='check')             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1649,7 +1649,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://graph.org/file/18154fad06450efdbc2a9.jpg")
+            InputMediaPhoto("https://telegra.ph/file/5a78d91e12e9bed9bc7f7.jpg")
         ) 
         await query.message.edit_text(
             text=script.PLAN3_TXT,
@@ -1910,7 +1910,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="t.me/Master_Jiraya_Bot")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="t.me/Scooby_MenBot")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -2019,7 +2019,7 @@ async def auto_filter(client, msg, spoll=False):
         if len(message.text) < 100:
             search = message.text
             m=await message.reply_sticker(sticker="CAACAgIAAxkBAAEX9rZlrzK7LG96b1yVJhnhA0RGfT8L9gACnFwBAAFji0YM2veI_Lsd8FIeBA",
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("The Happy Hour", url=CHNL_LNK)]]))
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Tʜᴇ OTT Sᴇʀᴠɪᴄᴇ", url=CHNL_LNK)]]))
             search = search.lower()
             find = search.split(" ")
             search = ""
@@ -2048,7 +2048,7 @@ async def auto_filter(client, msg, spoll=False):
         message = msg.message.reply_to_message  # msg will be callback query
         search, files, offset, total_results = spoll
         m=await message.reply_sticker(sticker="CAACAgIAAxkBAAEX9rZlrzK7LG96b1yVJhnhA0RGfT8L9gACnFwBAAFji0YM2veI_Lsd8FIeBA",
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("The Happy Hour", url=CHNL_LNK)]]))
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Tʜᴇ OTT Sᴇʀᴠɪᴄᴇ", url=CHNL_LNK)]]))
         settings = await get_settings(message.chat.id)
     temp.SEND_ALL_TEMP[message.from_user.id] = files
     temp.KEYWORD[message.from_user.id] = search
