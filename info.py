@@ -55,7 +55,7 @@ SHORT_MODE = is_enabled((environ.get("SHORT_MODE","False")), False)
 
 # Others
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), False)
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://youtube.com/shorts/-gZtE-mc7XY?si=eFVF-gNe0Bo-xUmZ")
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/download_t/18")
 VERIFY2_URL = environ.get('VERIFY2_URL', "aslink.in")
 VERIFY2_API = environ.get('VERIFY2_API', "01285bce18a8c305944a47b43a54529eb3de5c5c")
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'aslink.in')
