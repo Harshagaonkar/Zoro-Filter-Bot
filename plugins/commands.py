@@ -30,7 +30,7 @@ async def start(client, message):
                     InlineKeyboardButton('• Hᴇʟᴘ •', callback_data='kushal'),
                     InlineKeyboardButton('• Aʙᴏᴜᴛ •', callback_data='about')
                   ],[
-                    InlineKeyboardButton('❤️ Sᴜʙꜱᴄʀɪʙᴇ Fᴏʀ Mᴏᴠɪᴇ Sᴜɢɢᴇꜱᴛɪᴏɴ ❤️', url='https://www.youtube.com/@ThappyHour')
+                    InlineKeyboardButton('❤️ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ ❤️', url='https://t.me/theottservice')
                     ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -58,7 +58,7 @@ async def start(client, message):
                     InlineKeyboardButton('• Hᴇʟᴘ •', callback_data='kushal'),
                     InlineKeyboardButton('• Aʙᴏᴜᴛ •', callback_data='about')
                   ],[
-                    InlineKeyboardButton('❤️ Sᴜʙꜱᴄʀɪʙᴇ Fᴏʀ Mᴏᴠɪᴇ Sᴜɢɢᴇꜱᴛɪᴏɴ ❤️', url='https://www.youtube.com/@ThappyHour')
+                    InlineKeyboardButton('❤️ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ ❤️', url='https://t.me/theottservice')
                     ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -105,7 +105,7 @@ async def start(client, message):
                     InlineKeyboardButton('• Hᴇʟᴘ •', callback_data='kushal'),
                     InlineKeyboardButton('• Aʙᴏᴜᴛ •', callback_data='about')
                   ],[
-                    InlineKeyboardButton('❤️ Sᴜʙꜱᴄʀɪʙᴇ Fᴏʀ Mᴏᴠɪᴇ Sᴜɢɢᴇꜱᴛɪᴏɴ ❤️', url='https://www.youtube.com/@ThappyHour')
+                    InlineKeyboardButton('❤️ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ ❤️', url='https://t.me/theottservice')
                     ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -158,7 +158,7 @@ async def start(client, message):
                          [
                           InlineKeyboardButton("🖥️ ᴏɴʟɪɴᴇ ᴡᴀᴛᴄʜ / ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ 📥", callback_data=f"stream#{file_id}")
                        ],[
-                    InlineKeyboardButton('❤️ Sᴜʙꜱᴄʀɪʙᴇ Fᴏʀ Mᴏᴠɪᴇ Sᴜɢɢᴇꜱᴛɪᴏɴ ❤️', url='https://www.youtube.com/@ThappyHour')
+                    InlineKeyboardButton('❤️ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ ❤️', url='https://t.me/theottservice')
                     ]
                         ]
                     )
@@ -177,7 +177,7 @@ async def start(client, message):
                           InlineKeyboardButton("🖥️ ᴏɴʟɪɴᴇ ᴡᴀᴛᴄʜ / ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ 📥", callback_data=f"stream#{file_id}")
                           
                        ],[
-                    InlineKeyboardButton('❤️ Sᴜʙꜱᴄʀɪʙᴇ Fᴏʀ Mᴏᴠɪᴇ Sᴜɢɢᴇꜱᴛɪᴏɴ ❤️', url='https://www.youtube.com/@ThappyHour')
+                    InlineKeyboardButton('❤️ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ ❤️', url='https://t.me/theottservice')
                     ]
                         ]
                     )
@@ -250,7 +250,7 @@ async def start(client, message):
                 ]]
                 await verify_user(client, userid, token)
                 await message.reply_text(
-                    text=f"<b>सफलतापूर्वक वेरिफाई हो गए हैं ! ✅\n\nअब आप 2 Days अनलिमिटेड मूवी ले सकते है।</b>",
+                    text=f"<b>Yᴏᴜʀ Sᴜᴄᴄᴇssғᴜʟʟʏ Vᴇʀɪғɪᴇᴅ...✅ Nᴏᴡ Yᴏᴜ Cᴀɴ Eɴɪᴏʏ Uɴʟɪᴍɪᴛᴇᴅ Mᴏᴠɪᴇs Fᴏʀ 𝟸 Dᴀʏs</b>",
                     protect_content=True if PROTECT_CONTENT else False,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -259,7 +259,7 @@ async def start(client, message):
                 InlineKeyboardButton("Get File", url=f"https://telegram.me/{temp.U_NAME}?start=files_{fileid}")
             ]]
             await message.reply_text(
-                text=f"<b>सफलतापूर्वक वेरिफाई हो गए हैं ! ✅\n\nअब आप 2 Days अनलिमिटेड मूवी ले सकते है।</b>",
+                text=f"<b>Yᴏᴜʀ Sᴜᴄᴄᴇssғᴜʟʟʏ Vᴇʀɪғɪᴇᴅ...✅ Nᴏᴡ Yᴏᴜ Cᴀɴ Eɴɪᴏʏ Uɴʟɪᴍɪᴛᴇᴅ Mᴏᴠɪᴇs Fᴏʀ 𝟸 Dᴀʏs</b>",
                 protect_content=True if PROTECT_CONTENT else False,
                 reply_markup=InlineKeyboardMarkup(btn)
             )
@@ -271,18 +271,18 @@ async def start(client, message):
                 protect_content=True if PROTECT_CONTENT else False
             )
             
-    if data.startswith("TheHappyHour"):
+    if data.startswith("Zoro_X_Bot"):
         btn = [[
-            InlineKeyboardButton('📸 sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ 📸', url="https://t.me/Master_Jiraya_Bot")
+            InlineKeyboardButton('📸 sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ 📸', url="https://t.me/Scooby_MenBot")
         ],[
-            InlineKeyboardButton('☘️ ꜰᴜᴛᴜʀᴇ ☘️', url="https://graph.org/The-Happy-Hour-12-22-2"),
+            InlineKeyboardButton('☘️ ꜰᴜᴛᴜʀᴇ ☘️', url="https://graph.org/T%CA%9C%E1%B4%87-OTT-S%E1%B4%87%CA%80%E1%B4%A0%C9%AA%E1%B4%84%E1%B4%87-02-18"),
             InlineKeyboardButton('cʟᴏꜱᴇ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(btn)
         await message.reply_photo(
-        photo="https://graph.org/file/37ffdc19a9c1459b9d6e2.jpg",
+        photo="https://telegra.ph/file/5a78d91e12e9bed9bc7f7.jpg",
         caption="""<b>
-        <a href='https://graph.org/The-Happy-Hour-12-22-2'>💥 ᴘʀᴇᴍɪᴜᴍ ᴘʀɪᴄᴇ 💥
+        <a href='https://graph.org/T%CA%9C%E1%B4%87-OTT-S%E1%B4%87%CA%80%E1%B4%A0%C9%AA%E1%B4%84%E1%B4%87-02-18'>💥 ᴘʀᴇᴍɪᴜᴍ ᴘʀɪᴄᴇ 💥
         
 1 Wᴇᴇᴋ = [50 + 0] Rs
 1 Mᴏɴᴛʜ = [50 + 10] Rs
@@ -312,7 +312,7 @@ async def start(client, message):
                           InlineKeyboardButton("🖥️ ᴏɴʟɪɴᴇ ᴡᴀᴛᴄʜ / ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ 📥", callback_data=f"stream#{file_id}")
               
                        ],[
-                    InlineKeyboardButton('❤️ Sᴜʙꜱᴄʀɪʙᴇ Fᴏʀ Mᴏᴠɪᴇ Sᴜɢɢᴇꜱᴛɪᴏɴ ❤️', url='https://www.youtube.com/@ThappyHour')
+                    InlineKeyboardButton('❤️ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ ❤️', url='https://t.me/theottservice')
                     ]
                         ]
                     )
@@ -323,10 +323,10 @@ async def start(client, message):
                     InlineKeyboardButton("Vᴇʀɪғʏ", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id)),
                     InlineKeyboardButton("Hᴏᴡ Tᴏ Vᴇʀɪғʏ", url=HOW_TO_VERIFY)
                 ],[
-            InlineKeyboardButton("⛥ ʀᴇᴍᴏᴠᴇ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ⛥", url="https://t.me/TheHappyHourBOT?start=TheHappyHour")
+            InlineKeyboardButton("⛥ ʀᴇᴍᴏᴠᴇ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ⛥", url="https://t.me/Zoro_X_Bot?start=Zoro_X_Bot")
           ]]
                 await message.reply_text(
-                    text="<b>हर दो दिन में 10 सेकंड का वेरिफिकेशन \nजरूरी हे !\n\nJust 10 second Bro 🥲\n\nAfter Get Unlimited Movies...✅</b>",
+                    text="<b>Just 10 second Bro 🥲\n\nAfter Get Unlimited Movies...✅</b>",
                     protect_content=True if PROTECT_CONTENT else False,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -341,7 +341,7 @@ async def start(client, message):
                       InlineKeyboardButton("🖥️ ᴏɴʟɪɴᴇ ᴡᴀᴛᴄʜ / ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ 📥", callback_data=f"not_premium#{file_id}")
               
                    ],[
-                    InlineKeyboardButton('❤️ Sᴜʙꜱᴄʀɪʙᴇ Fᴏʀ Mᴏᴠɪᴇ Sᴜɢɢᴇꜱᴛɪᴏɴ ❤️', url='https://www.youtube.com/@ThappyHour')
+                    InlineKeyboardButton('❤️ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ ❤️', url='https://t.me/theottservice')
                     ]
                     ]
                 )
@@ -386,7 +386,7 @@ async def start(client, message):
                   InlineKeyboardButton("🖥️ ᴏɴʟɪɴᴇ ᴡᴀᴛᴄʜ / ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ 📥", callback_data=f"stream#{file_id}")
               
                ],[
-                    InlineKeyboardButton('❤️ Sᴜʙꜱᴄʀɪʙᴇ Fᴏʀ Mᴏᴠɪᴇ Sᴜɢɢᴇꜱᴛɪᴏɴ ❤️', url='https://www.youtube.com/@ThappyHour')
+                    InlineKeyboardButton('❤️ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ ❤️', url='https://t.me/theottservice')
                     ]
                 ]
             )
@@ -397,10 +397,10 @@ async def start(client, message):
             InlineKeyboardButton("Vᴇʀɪғʏ", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id)),
             InlineKeyboardButton("Hᴏᴡ Tᴏ Vᴇʀɪғʏ", url=HOW_TO_VERIFY)
         ],[
-            InlineKeyboardButton("⛥ ʀᴇᴍᴏᴠᴇ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ⛥", url="https://t.me/TheHappyHourBOT?start=TheHappyHour")
+            InlineKeyboardButton("⛥ ʀᴇᴍᴏᴠᴇ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ⛥", url="https://t.me/Zoro_X_Bot?start=Zoro_X_Bot")
           ]]
         await message.reply_text(
-            text="<b>हर दो दिन में 10 सेकंड का वेरिफिकेशन \nजरूरी हे !\n\nJust 10 second Bro 🥲\n\nAfter Get Unlimited Movies...✅</b>",
+            text="<b>Just 10 second Bro 🥲\n\nAfter Get Unlimited Movies...✅</b>",
             protect_content=True if PROTECT_CONTENT else False,
             reply_markup=InlineKeyboardMarkup(btn)
         )
@@ -416,7 +416,7 @@ async def start(client, message):
              InlineKeyboardButton("🖥️ ᴏɴʟɪɴᴇ ᴡᴀᴛᴄʜ / ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ 📥", callback_data=f"not_premium#{file_id}")
               
            ],[
-                    InlineKeyboardButton('❤️ Sᴜʙꜱᴄʀɪʙᴇ Fᴏʀ Mᴏᴠɪᴇ Sᴜɢɢᴇꜱᴛɪᴏɴ ❤️', url='https://www.youtube.com/@ThappyHour')
+                    InlineKeyboardButton('❤️ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ ❤️', url='https://t.me/theottservice')
                     ]
             ]
         )
