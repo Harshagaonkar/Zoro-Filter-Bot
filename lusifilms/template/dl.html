@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta property="og:image" content="https://i.ibb.co/M8S0Zzj/live-streaming.png" itemprop="thumbnailUrl">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>%s</title>
-    <link rel="stylesheet" type='text/css' href="https://adarsh-goel.github.io/resources/style.css">
+    <link rel="stylesheet" type='text/css' href="https://drive------google.com/uc?export=view&id=1pVLG4gZy7jdow3sO-wFS06aP_A9QX0O6">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Delius">
-
-
+    
 </head>
 
-<body class='cyber'>
+
     <header>
+        <marquee bgcolor="#f7f305"
         <div class="toogle"></div>
         <div id="file-name" class="cyber">
-            <marquee direction="left"> %s</marquee>
+            %s
         </div>
+        </marquee>
     </header>
 
     <div class="container">
@@ -33,35 +33,32 @@
         </a>
     </div>
 
-    <footer>
-        <center>
-            <a href="https://github.com/biisal/biisal-file-stream-pro">
-                <h3 style="color: black; text-align: center;">FORK ME</h3>
-            </a>
-        </center>
 
+
+
+   <footer>
+	   <center><h4>Video not playing? Possibly because your browser or the player doesn't support codec. Please download and watch.</h4></center>
+	   
     </footer>
-
-
-    <script src="https://cdn.plyr.io/3.6.12/plyr.js"></script>
-    <script>
+    <script src="https://cdn.plyr.io/3.6.9/plyr.js"></script>
+	<script>
         const controls = [
-            'play-large',
-            'rewind',
-            'play',
-            'fast-forward',
-            'progress',
-            'current-time',
-            'duration',
-            'mute',
-            'volume',
-            'captions',
-            'settings',
-            'pip',
-            'airplay',
-            'download',
-            'fullscreen'
-        ];
+              'play-large',
+              'rewind',
+              'play', 
+              'fast-forward', 
+              'progress', 
+              'current-time',
+              'duration',
+              'mute',
+              'volume',
+              'captions',
+              'settings',
+              'pip',
+              'airplay',
+              'download',
+              'fullscreen'
+            ];
         document.addEventListener('DOMContentLoaded', () => {
             const player = Plyr.setup('.player', { controls });
         });
@@ -70,12 +67,6 @@
         const title = document.querySelector('#file-name');
         const footer = document.querySelector('footer');
         const toogle = document.querySelector('.toogle');
-        toogle.onclick = () => {
-            body.classList.toggle('dark')
-            footer.classList.toggle('dark')
-            title.classList.toggle('dark')
-        }
     </script>
 </body>
-
 </html>
