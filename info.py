@@ -55,7 +55,7 @@ SHORT_MODE = is_enabled((environ.get("SHORT_MODE","True")), False)
 
 # Others
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), False)
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/download_t/21")
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/download_t/25")
 VERIFY2_URL = environ.get('VERIFY2_URL', "shorito.com")
 VERIFY2_API = environ.get('VERIFY2_API', "eebf2f3800469ca259c11b8f0d52c91ced63dc1c)
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shorito.com')
