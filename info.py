@@ -49,17 +49,17 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 premium = environ.get('PREMIUM_LOGS', '-1001856149007')
 PREMIUM_LOGS = int(premium) if premium and id_pattern.search(premium) else None
 
-IMPORT_JK_SITE = environ.get('IMPORT_JK_SITE', 'omnifly.in.net')
-IMPORT_JK_API = environ.get('IMPORT_JK_API', '691430ab400c3fcb144215062141ad4cbb16699b')
-SHORT_MODE = is_enabled((environ.get("SHORT_MODE","False")), False)
+IMPORT_JK_SITE = environ.get('IMPORT_JK_SITE', 'shorito.com')
+IMPORT_JK_API = environ.get('IMPORT_JK_API', 'eebf2f3800469ca259c11b8f0d52c91ced63dc1c')
+SHORT_MODE = is_enabled((environ.get("SHORT_MODE","True")), False)
 
 # Others
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), False)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/download_t/21")
-VERIFY2_URL = environ.get('VERIFY2_URL', "omnifly.in.net")
-VERIFY2_API = environ.get('VERIFY2_API', "691430ab400c3fcb144215062141ad4cbb16699b")
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'omnifly.in.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', '691430ab400c3fcb144215062141ad4cbb16699b')
+VERIFY2_URL = environ.get('VERIFY2_URL', "shorito.com")
+VERIFY2_API = environ.get('VERIFY2_API', "eebf2f3800469ca259c11b8f0d52c91ced63dc1c)
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shorito.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'eebf2f3800469ca259c11b8f0d52c91ced63dc1c')
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')), False)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1002083896854').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "10")
