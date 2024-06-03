@@ -51,7 +51,7 @@ PREMIUM_LOGS = int(premium) if premium and id_pattern.search(premium) else None
 
 IMPORT_JK_SITE = environ.get('IMPORT_JK_SITE', 'shorito.com')
 IMPORT_JK_API = environ.get('IMPORT_JK_API', 'eebf2f3800469ca259c11b8f0d52c91ced63dc1c')
-SHORT_MODE = is_enabled((environ.get("SHORT_MODE","True")), False)
+SHORT_MODE = is_enabled((environ.get("SHORT_MODE","False")), False)
 
 # Others
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), False)
