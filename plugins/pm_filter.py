@@ -60,7 +60,7 @@ async def stream_download(bot, query):
         await query.message.reply_text(
             text=f"Iғ Yᴏᴜ Wᴀɴᴛ Tᴏ Aᴠᴏɪᴅ AD Tʜᴇɴ Bᴜʏ Pʀᴇᴍɪᴜᴍ...✅",
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('💎 ᴘʀᴇᴍɪᴜᴍ 💎', url='https://t.me/Zoro_X_Bot?start=Zoro_X_Bot'),
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('💎 ᴘʀᴇᴍɪᴜᴍ 💎', url='https://t.me/Zenitsux_Bot?start=Zenitsux_Bot'),
                                             InlineKeyboardButton('💥 ꜰᴜᴛᴜʀᴇꜱ 💥', url='https://graph.org/T%CA%9C%E1%B4%87-OTT-S%E1%B4%87%CA%80%E1%B4%A0%C9%AA%E1%B4%84%E1%B4%87-02-18')]])
         )
         await query.edit_message_reply_markup(
@@ -79,7 +79,7 @@ async def stream_download(bot, query):
         await query.message.reply_text(
             text=f"ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ",
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('💎 ᴘʀᴇᴍɪᴜᴍ 💎', url='https://t.me/Zoro_X_Bot?start=Zoro_X_Bot'),
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('💎 ᴘʀᴇᴍɪᴜᴍ 💎', url='https://t.me/Zenitsux_Bot?start=Zenitsux_Bot'),
                                             InlineKeyboardButton('💥 ꜰᴜᴛᴜʀᴇꜱ 💥', url='https://graph.org/T%CA%9C%E1%B4%87-OTT-S%E1%B4%87%CA%80%E1%B4%A0%C9%AA%E1%B4%84%E1%B4%87-02-18')]])
         )
         
