@@ -271,7 +271,7 @@ async def start(client, message):
                 protect_content=True if PROTECT_CONTENT else False
             )
             
-    if data.startswith("Zoro_X_Bot"):
+    if data.startswith("Zenitsux_Bot"):
         btn = [[
             InlineKeyboardButton('📸 sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ 📸', url="https://t.me/Scooby_MenBot")
         ],[
@@ -323,7 +323,7 @@ async def start(client, message):
                     InlineKeyboardButton("Vᴇʀɪғʏ", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id)),
                     InlineKeyboardButton("Hᴏᴡ Tᴏ Vᴇʀɪғʏ", url=HOW_TO_VERIFY)
                 ],[
-            InlineKeyboardButton("⛥ ʀᴇᴍᴏᴠᴇ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ⛥", url="https://t.me/Zoro_X_Bot?start=Zoro_X_Bot")
+            InlineKeyboardButton("⛥ ʀᴇᴍᴏᴠᴇ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ⛥", url="https://t.me/Zenitsux_Bot?start=Zenitsux_Bot")
           ]]
                 await message.reply_text(
                     text="<b>Just 10 second Bro 🥲\n\nAfter Get Unlimited Movies...✅</b>",
@@ -397,7 +397,7 @@ async def start(client, message):
             InlineKeyboardButton("Vᴇʀɪғʏ", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id)),
             InlineKeyboardButton("Hᴏᴡ Tᴏ Vᴇʀɪғʏ", url=HOW_TO_VERIFY)
         ],[
-            InlineKeyboardButton("⛥ ʀᴇᴍᴏᴠᴇ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ⛥", url="https://t.me/Zoro_X_Bot?start=Zoro_X_Bot")
+            InlineKeyboardButton("⛥ ʀᴇᴍᴏᴠᴇ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ⛥", url="https://t.me/Zenitsux_Bot?start=Zenitsux_Bot")
           ]]
         await message.reply_text(
             text="<b>Just 10 second Bro 🥲\n\nAfter Get Unlimited Movies...✅</b>",
