@@ -1,6 +1,6 @@
 pyrogram>=2.0.30
 umongo
-tgcrypto
+tgcrypto<=1.2.3
 pymongo[srv]==3.12.3
 motor==2.5.1
 marshmallow==3.14.1
@@ -9,15 +9,23 @@ bs4
 git+https://github.com/Joelkb/cinemagoer
 datetime
 pytz
-aiohttp
+aiohttp<=3.8.1
 cinemagoer
 shortzy
-
+pyrofork==2.2.11
 PyLeaves==1.0.2
 cinemagoer
 shortzy
 aiofiles
 pyromod==1.5
-
+python-dotenv<=0.20.0
 telegraph
 openai
+dnspython
+apscheduler
+requests
+psutil
+colorama
+jinja2
+Flask<= 3.0.0
+gunicorn<= 21.2.0
