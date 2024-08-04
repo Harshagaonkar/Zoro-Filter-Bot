@@ -1,7 +1,7 @@
 pyrogram>=2.0.30
 umongo
 tgcrypto<=1.2.3
-pymongo
+pymongo[srv]==3.12.3
 motor==2.5.1
 marshmallow==3.14.1
 requests
@@ -12,7 +12,7 @@ pytz
 aiohttp<=3.8.1
 cinemagoer
 shortzy
-pyrofork==2.2.11
+
 PyLeaves==1.0.2
 cinemagoer
 shortzy
