@@ -46,7 +46,7 @@ async def myplan(client, message):
         minutes, seconds = divmod(remainder, 60)
 
         time_left_str = f"{days} days, {hours} hours, {minutes} minutes"
-        await message.reply_text(f"<b>⚡ ᴄᴜʀʀᴇɴᴛ ᴘʟᴀɴ ᴅᴇᴛᴀɪʟꜱ ⚡\n\nᴛɪᴍᴇ ʟᴇꜰᴛ - {time_left_str}\nᴇxᴘɪʀᴇ ᴛɪᴍᴇ - {expiry_str_in_ist}</b>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Uᴘɢʀᴀᴅᴇ", url="https://t.me/Zoro_X_Bot?start=Zoro_X_Bot"), InlineKeyboardButton("Cʟᴏsᴇ ❌", callback_data="close_data")]])) 
+        await message.reply_text(f"<b>⚡ ᴄᴜʀʀᴇɴᴛ ᴘʟᴀɴ ᴅᴇᴛᴀɪʟꜱ ⚡\n\nᴛɪᴍᴇ ʟᴇꜰᴛ - {time_left_str}\nᴇxᴘɪʀᴇ ᴛɪᴍᴇ - {expiry_str_in_ist}</b>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Uᴘɢʀᴀᴅᴇ", url="https://t.me/Zenitsux_Bot?start=Zenitsux_Bot"), InlineKeyboardButton("Cʟᴏsᴇ ❌", callback_data="close_data")]])) 
     else:
         await message.reply_text(f"<b>Yᴏᴜ Dɪᴅɴ'ᴛ Bᴜʏ Aɴʏ Pʀᴇᴍɪᴜᴍ Pʟᴀɴ...😒\n\nTᴏ Bᴜʏ Pʀᴇᴍɪᴜᴍ Pʟᴀɴ Cʟɪᴄᴋ Oɴ /premium ‼️</b>")
 
